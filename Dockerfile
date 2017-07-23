@@ -10,5 +10,6 @@ ADD pom.xml /code/pom.xml
 
 # Adding source, compile and package into a fat jar
 ADD src /code/src
+RUN mvn clean install -X 
 RUN ["mvn", "package"]
 ADD dockerwar.war /usr/local/tomcat/webapps/
