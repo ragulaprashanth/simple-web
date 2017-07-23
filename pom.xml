@@ -136,10 +136,10 @@
                                 <maven.compiler.source>1.6</maven.compiler.source>
                                 <maven.compiler.target>1.6</maven.compiler.target>
                                 </properties>        
-				<!--configuration>
+				<configuration>
 					<source>${java-version}</source>
 					<target>${java-version}</target>
-				</configuration -->
+				</configuration>
 			</plugin>
 			<plugin>
                            <groupId>org.apache.maven.plugins</groupId>
